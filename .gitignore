@@ -1,0 +1,73 @@
+# ========== Node Modules ==========
+node_modules/
+
+# ========== Build Artifacts ==========
+dist/
+out/
+build/
+release/
+coverage/
+coverage-final.json
+
+# ========== Electron Build Artifacts ==========
+*.asar
+*.exe
+*.dmg
+*.app
+*.snap
+*.deb
+*.rpm
+*.msi
+
+# ========== Logs & Temp Files ==========
+*.log
+*.gz
+*.tgz
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log
+temp/
+tmp/
+
+# ========== TypeScript ==========
+*.tsbuildinfo
+
+# ========== Webpack/Vite Cache ==========
+.cache/
+.cache-loader/
+
+# ========== Jest / Testing ==========
+.jest/
+test-results/
+coverage/
+
+# ========== VSCode / Editor ==========
+.vscode/
+.history/
+
+# ========== OS Garbage ==========
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ========== Env / Secrets ==========
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ========== Git ==========
+.git/
+*.orig
+
+# ========== Misc ==========
+*.sublime-workspace
+*.sublime-project
+.idea/
+*.swp
+*.bak
+*.tmp
