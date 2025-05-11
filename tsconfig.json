@@ -9,7 +9,8 @@
     "skipLibCheck": true, // 型定義ファイル（@types/〜）のチェックをスキップ（高速化）
     "outDir": "./dist", // コンパイル後の出力先ディレクトリ
     "baseUrl": ".", // 相対パスの基準（importのaliasなどに使える）
-    "jsx": "react-jsx"
+    "jsx": "react-jsx", // React.JSX.Elementでコンポーネントを定義するため
+    "lib": ["dom", "esnext"]
   },
   "include": ["main", "renderer", "types"]
 }
