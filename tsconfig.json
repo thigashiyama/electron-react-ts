@@ -12,5 +12,5 @@
     "jsx": "react-jsx", // React.JSX.Elementでコンポーネントを定義するため
     "lib": ["dom", "esnext"]
   },
-  "include": ["main", "renderer", "types", "webpack.renderer.js"]
+  "include": ["main", "renderer", "types"]
 }
