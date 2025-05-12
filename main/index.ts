@@ -10,7 +10,7 @@ const createWindow = () => {
     width: 800, // ウィンドウの横幅
     height: 600, // ウィンドウの高さ
     webPreferences: {
-      preload: path.join(__dirname, "preload.js"), // Preloadスクリプト（レンダラーとNodeの橋渡し）
+      //preload: path.join(__dirname, "preload.js"), // Preloadスクリプト（レンダラーとNodeの橋渡し）
     },
   });
 
